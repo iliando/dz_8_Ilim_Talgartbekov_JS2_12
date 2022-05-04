@@ -1,6 +1,9 @@
-const URL = 'http://localhost:5555/products';
+const URL = 'https://jsonplaceholder.typicode.com/users';
 
 const send = document.getElementById('send');
+const userName = document.getElementById('userName');
+const name = document.getElementById('name');
+const email = document.getElementById('email');
 
 function getProducts() {
     fetch(URL).then(response => response.json());
@@ -9,7 +12,7 @@ function getProducts() {
 async function createProduct () {
     const data = {
         name: name.value,
-        username: username.value,
+        username: userName.value,
         email: email.value
     }
     const option = {
