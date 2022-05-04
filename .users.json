@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung4 10",
+      "username": "kokias",
+      "email": "lkjsad"
+    },
+    {
+      "id": 2,
+      "name": "Samsung3 10",
+      "username": "kokxis",
+      "email": "lkjsad"
+    },
+    {
+      "id": 3,
+      "name": "Samsung2 10",
+      "username": "koksis",
+      "email": "lkjsad"
+    },
+    {
+      "id": 4,
+      "name": "Samsung 10",
+      "username": "koksis",
+      "email": "lkjsad"
+    }
+  ]
+}
